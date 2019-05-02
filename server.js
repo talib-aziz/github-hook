@@ -1,5 +1,7 @@
 const githubhook = require('githubhook');
 const github = githubhook({
+	host: '119.81.124.218'
+	port: '22',
     secret: 'secret',
 });
 
